@@ -12,7 +12,6 @@ struct NavigationBar: View {
         
         HStack {
             Spacer()
-            
             Button("R.Vergueiro, 3185") {}
                 .font(.subheadline)
                 .fontWeight(.semibold)
@@ -23,7 +22,6 @@ struct NavigationBar: View {
                 .foregroundColor(.red)
                 .font(.title3)
         }
-        
     }
 }
 
